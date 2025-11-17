@@ -1,0 +1,120 @@
+# Pi-hole AI Services Blocklist
+# Blocklist for preventing access to major AI services
+# Updated: November 2025
+# Purpose: Block domains associated with popular AI platforms
+
+# OpenAI (ChatGPT, DALL·E, Codex)
+openai.com
+api.openai.com
+chat.openai.com
+platform.openai.com
+labs.openai.com
+cdn.openai.com
+auth0.openai.com
+static.cloudflareinsights.com
+
+# Google (Gemini, Bard, Google AI)
+bard.google.com
+gemini.google.com
+ai.google.dev
+makersuite.google.com
+aiplatform.googleapis.com
+generativelanguage.googleapis.com
+
+# Anthropic (Claude)
+claude.ai
+api.anthropic.com
+console.anthropic.com
+
+# Mistral
+mistral.ai
+api.mistral.ai
+
+# Meta (LLaMA)
+ai.meta.com
+research.facebook.com
+
+# xAI (Grok)
+x.ai
+grok.x.ai
+
+# Hugging Face
+huggingface.co
+huggingface.co
+api-inference.huggingface.co
+
+# Microsoft (Copilot, Azure AI)
+copilot.microsoft.com
+copilot.office.com
+cortana.office.com
+api.copilot.microsoft.com
+copilotkit.microsoft.com
+
+# Amazon AWS (Bedrock, CodeWhisperer)
+bedrock.us-east-1.amazonaws.com
+bedrock.us-west-2.amazonaws.com
+codewhisperer.us-east-1.amazonaws.com
+
+# Perplexity AI
+perplexity.ai
+api.perplexity.ai
+
+# Cohere
+cohere.ai
+api.cohere.ai
+
+# Stability AI (Image Generation)
+stability.ai
+api.stability.ai
+
+# ElevenLabs (Text-to-Speech AI)
+elevenlabs.io
+api.elevenlabs.io
+
+# Together AI
+together.ai
+api.together.xyz
+
+# Replicate (AI Model API)
+replicate.com
+api.replicate.com
+
+# Groq (Fast LLM Inference)
+groq.com
+api.groq.com
+
+# Aleph Alpha
+aleph-alpha.com
+api.aleph-alpha.com
+
+# Jasper AI (Content Writing)
+jasper.ai
+api.jasper.ai
+
+# Copy.ai
+copy.ai
+
+# Synthesia (AI Video)
+synthesia.io
+
+# Descript (AI Audio/Video)
+descript.com
+
+# Runway (AI Video Generation)
+runwayml.com
+
+# Midjourney (Image Generation)
+midjourney.com
+
+# NightCafe (Image Generation)
+nightcafe.studio
+
+# Photosonic (Image Generation by Writesonic)
+photosonic.writesonic.com
+
+# Google Analytics (often used by AI sites for tracking)
+analytics.google.com
+www.googletagmanager.com
+www.google-analytics.com
+
+# End of Pi-hole AI Blocklist
